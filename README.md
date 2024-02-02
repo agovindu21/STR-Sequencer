@@ -1,4 +1,4 @@
-# STR-Sequencing Emulation
+# STR-Sequencing Emulator
 This sequencing tool leverages short tandem repeats (STRs), allowing users to take DNA sequences of any length and match them to a database of known human DNA samples. This repository contains a folder of 20 sample sequences and a database of sample individuals and their known STR counts. These can be used by users to experiment with this tool in a similar way to how it would be used in the real world.
 
 # Background
