@@ -6,8 +6,8 @@ import sys
 
 def main():
     # Ensure correct command-line usage
-    if len(sys.argv) != 2:
-        sys.exit("Usage: python3 dna.py sequence.txt")
+    if len(sys.argv) != 3:
+        sys.exit("Usage: python3 dna.py data.csv sequence.txt")
 
     # Read database file into a variable
     file = open(sys.argv[1])
@@ -19,6 +19,8 @@ def main():
 
     # Find longest match of each STR in DNA sequence, matching to the database
     match = {}
+
+    # Relevant STRs based on the data being used
     STR = ["AGATC", "TTTTTTCT", "AATG", "TCTAG", "GATA", "TATC", "GAAA", "TCTG"]
 
     for i in range(len(STR)):
