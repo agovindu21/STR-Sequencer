@@ -7,6 +7,6 @@ This Python sequencing tool leverages short tandem repeats (STRs), allowing user
 
 In the command line type: "python3 STR_Analysis.py database.csv sequence.txt"
 - where you include the specific name of the database and sequence of interest
-- if the command-line is used improperly, the following reminder will arise: "Usage: python STR_Analysis.py data.csv sequence.txt"
+- if an improper command is used, the following reminder will be printed: "Usage: python STR_Analysis.py data.csv sequence.txt"
 
 This repository contains a folder of 20 sample sequences and a database of sample individuals and their known STR counts. These can be used by users to experiment with this tool in a similar way to how it would be used in the real world. Users can also incoporate their own .txt sequences and .csv databases of individuals, editing the Python file accordingly to include the relevant STRs.
