@@ -5,7 +5,7 @@ This Python sequencing tool leverages short tandem repeats (STRs), allowing user
 
 # Usage
 
-Python3 STR_Analysis.py database.csv sequence.txt
+"Python3 STR_Analysis.py database.csv sequence.txt"
 - where you include the specific name of the database and sequence of interest
 - if the command-line is used improperly, the following error will arise: "Usage: python dna.py data.csv sequence.txt"
 
