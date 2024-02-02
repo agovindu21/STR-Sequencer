@@ -6,8 +6,8 @@ import sys
 
 def main():
     # Ensure correct command-line usage
-    if len(sys.argv) != 3:
-        sys.exit("Usage: python dna.py data.csv sequence.txt")
+    if len(sys.argv) != 2:
+        sys.exit("Usage: python3 dna.py sequence.txt")
 
     # Read database file into a variable
     file = open(sys.argv[1])
@@ -17,12 +17,9 @@ def main():
     with open(sys.argv[2], "r") as f:
         Seq = f.read()
 
-    # Find longest match of each STR in DNA sequence, from user's choice of large or small database
+    # Find longest match of each STR in DNA sequence, matching to the database
     match = {}
-    if sys.argv[1] == "databases/large.csv":
-        STR = ["AGATC", "TTTTTTCT", "AATG", "TCTAG", "GATA", "TATC", "GAAA", "TCTG"]
-    else:
-        STR = ["AGATC", "AATG", "TATC"]
+    STR = ["AGATC", "TTTTTTCT", "AATG", "TCTAG", "GATA", "TATC", "GAAA", "TCTG"]
 
     for i in range(len(STR)):
         match[STR[i]] = longest_match(Seq, STR[i])
