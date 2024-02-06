@@ -11,6 +11,6 @@ Using multiple STRs, rather than just one, can improve the accuracy of DNA profi
 This Python sequencing tool leverages 8 of the most common STRs, allowing users to take DNA sequences of any length and match them to a database of known human DNA samples. This repository contains a folder of 20 sample sequences and a database of sample individuals and their known STR counts. These can be used by users to experiment with this tool in a similar way to how it would be used in the real world. Users can also incoporate their own .txt sequences and .csv databases of individuals, editing the Python file accordingly to include the relevant STRs.
 
 # Usage
-In the command line type: "python3 STR_Analysis.py database.csv sequence.txt"
-- where you include the specific name of the database and sequence of interest
-- if an improper command is used, the following reminder will be printed: "Usage: python STR_Analysis.py data.csv sequence.txt"
+In the command line type: "python STR_Analysis.py database.csv sequence.txt"
+- specify the name of the database file and sequence of interest
+- if an improper command-line argument is given, the following reminder will be printed: "Usage: python STR_Analysis.py data.csv sequence.txt"
