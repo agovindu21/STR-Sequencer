@@ -1,4 +1,4 @@
-# STR-Sequencing Emulator
+# STR Sequencer
 
 # Background
 DNA, the carrier of genetic information in living things, has been used in criminal justice for decades. But how, exactly, does DNA profiling work? Given a sequence of DNA, how can forensic investigators identify to whom it belongs?
